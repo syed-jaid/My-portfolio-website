@@ -489,6 +489,13 @@ section .title::after {
     transition: all 0.3s ease;
 }
 
+.live-site {
+    background-color: rgb(44, 214, 220);
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 7px;
+}
+
 .project-discription {
     text-align: justify;
 }
