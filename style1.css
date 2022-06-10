@@ -95,6 +95,10 @@
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 20px;
     }
+
+    .project-links {
+        display: inline;
+    }
 }
 
 @media (max-width: 947px) {
@@ -103,6 +107,10 @@
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 20px;
     }
+
+    .project-links {
+        display: inline;
+    }
 }
 
 @media (max-width: 690px) {
@@ -110,11 +118,36 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .project-links {
+        display: inline;
+    }
 }
 
 @media (max-width: 500px) {
     .projecrt-main-div {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .project-links {
+        display: inline;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .project-link {
+        display: inline-block;
+        background: rgb(44, 214, 220);
+        color: #fff;
+        font-size: 20px;
+        font-weight: 400;
+        padding: 7px 20px;
+        margin-top: 15px;
+        margin-right: 20px;
+        margin-right: 20px;
+        border-radius: 6px;
+        border: 2px solid rgb(38, 211, 217);
+        transition: all 0.3s ease;
     }
 }
