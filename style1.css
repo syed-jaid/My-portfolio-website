@@ -1,0 +1,120 @@
+.projecrt-main-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.project-img-div {
+
+    border-radius: 10px;
+    width: 350px;
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ul-list {
+    margin-left: 10px;
+}
+
+.project-img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.max-width-project {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.card {
+    margin-top: 30px;
+    margin-left: 23px;
+    margin-right: 23px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.card-header {
+    color: black;
+    padding: 5px;
+}
+
+.project-Discription {
+    color: black;
+    padding: 5px;
+}
+
+.project-links {
+    display: flex;
+    justify-content: start;
+}
+
+.project-link {
+    display: inline-block;
+    background: rgb(44, 214, 220);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 7px 50px;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-right: 20px;
+    border-radius: 6px;
+    border: 2px solid rgb(38, 211, 217);
+    transition: all 0.3s ease;
+}
+
+.project-link:hover {
+    color: rgb(44, 214, 220);
+    background: none;
+}
+
+/* responsive media query start */
+@media (max-width: 1104px) {
+
+    .projecrt-main-div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+
+    .max-width-project {
+        max-width: 1104px;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .projecrt-main-div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+}
+
+@media (max-width: 947px) {
+    .projecrt-main-div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+}
+
+@media (max-width: 690px) {
+    .projecrt-main-div {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .projecrt-main-div {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

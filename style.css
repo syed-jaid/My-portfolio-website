@@ -69,6 +69,16 @@ section .title {
     font-family: 'Ubuntu', sans-serif;
 }
 
+section .titlea {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
 section .title::before {
     content: "";
     position: absolute;
@@ -430,7 +440,7 @@ section .title::after {
 }
 
 .skills-content .right .css::before {
-    width: 60%;
+    width: 70%;
 }
 
 .skills-content .right .js::before {
@@ -449,6 +459,7 @@ section .title::after {
 .teams .title::after {
     content: "I have did";
 }
+
 
 .teams .carousel .card {
     background: #222;
@@ -490,8 +501,10 @@ section .title::after {
 }
 
 .live-site {
-    background-color: rgb(44, 214, 220);
+    background-color: rgb(237, 237, 237);
     width: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
     margin-top: 15px;
     border-radius: 7px;
 }
